@@ -22,11 +22,11 @@ const Sidebar = ({toggleSidebar}) => {
                 </Header>
                 <SidebarWrapper>
                     <SidebarItems>
-                        <Item onClick={toggleSidebar} to="home">Home</Item>
+                        <Item onClick={toggleSidebar} smooth={50} to="home" containerId="homeContainer" offset={-500}>Home</Item>
                         {/* <Item onClick={toggleSidebar} to="about">About</Item> */}
-                        <Item onClick={toggleSidebar} to="skills">Skills</Item>
-                        <Item onClick={toggleSidebar} to="projects">Projects</Item>
-                        <Item onClick={toggleSidebar} to="contact" primary>Contact</Item>
+                        <Item onClick={toggleSidebar} smooth={50} to="skills" containerId="homeContainer">Skills</Item>
+                        <Item onClick={toggleSidebar} smooth={50} to="projects" containerId="homeContainer">Projects</Item>
+                        <Item onClick={toggleSidebar} smooth={50} to="contact" containerId="homeContainer" primary>Contact</Item>
                     </SidebarItems>
                 </SidebarWrapper>
             </Navbar>

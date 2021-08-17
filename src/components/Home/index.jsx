@@ -24,12 +24,12 @@ const Home = () => {
     return (
         <>
             <Container>
-                <Content>
+                <Content id="homeContainer">
                     <Navbar isMobile={isMobile} toggleSidebar={sidebarToggler} />
                     {
                         isMobile && openedSidebar ? <Sidebar toggleSidebar={sidebarToggler} /> : <></>
                     }
-                    <HeroSection/>
+                    <HeroSection />
                     <SkillSection />
                 </Content>
             </Container>
