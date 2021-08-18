@@ -31,21 +31,21 @@ const SkillsSection = () => {
                                 <Img src={webDesign} draggable="false" />
                             </SkillIcon>
                             <SkillTitle>Web design</SkillTitle>
-                            <SkillDescription>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolores sunt alias facere in nam tempora perferendis laborum voluptatem officia, sint natus inventore quidem vel, excepturi obcaecati unde dolorem deserunt.</SkillDescription>
+                            <SkillDescription>I'm not very good at design, but I take my own way, I really like the modern look and I can imagine some things, along with my imaginations with some sites that already exist and I can do something good. I intend to study UX/UI Design and start doing more things besides sites.</SkillDescription>
                         </Skill>
                         <Skill>
                             <SkillIcon>
                                 <Img src={webDev} draggable="false" />
                             </SkillIcon>
                             <SkillTitle>Web development</SkillTitle>
-                            <SkillDescription>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolores sunt alias facere in nam tempora perferendis laborum voluptatem officia, sint natus inventore quidem vel, excepturi obcaecati unde dolorem deserunt.</SkillDescription>
+                            <SkillDescription>I started to like web programming after I learned Javascript. Currently 2 years ago I started building and loving sites, Love building the backend is where everything happens</SkillDescription>
                         </Skill>
                         <Skill>
                             <SkillIcon>
                                 <Img src={engineer} draggable="false" />
                             </SkillIcon>
                             <SkillTitle>Reverse engineer</SkillTitle>
-                            <SkillDescription>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam cum enim suscipit, sint reprehenderit ab veniam earum blanditiis deleniti, eius, vel distinctio illo? Doloribus ut perferendis culpa harum nostrum.</SkillDescription>
+                            <SkillDescription>Reverse engineering was what made me focus on software programming for some time, the first time I understood how a program works I was speechless. Understanding how something has been done, seeing how it works is something fantastic, it seems like a movie thing.</SkillDescription>
                         </Skill>
                     </SkillWrapper>
                 </Content>

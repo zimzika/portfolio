@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const Content = styled.div`
     display: flex;
     z-index: 1;
-    height: 700px;
+    height: 750px;
     width: 100%;
     align-items: center;
     justify-content: center;

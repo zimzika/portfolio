@@ -15,7 +15,7 @@ export const Content = styled.div`
     }
 
     @media screen and (max-width: 728px) {
-        margin-top: 70px;
+        margin-top: 20px;
     }
 `
 
@@ -59,6 +59,7 @@ export const ImageWrapper = styled.div`
     width: 100%;
     user-select: none;
     max-width: 555px;
+    margin-top: 20px;
 
     // @media screen and (max-width: 1400px) {
     //     width: 30%;
@@ -91,6 +92,7 @@ export const Button = styled(Link)`
     border: 0;
     padding: 15px 25px;
     margin: 5px;
+    margin-top: 10px;
     background-color: ${props => props.primary ? "#2574FC" : "transparent"};
     color: ${props => props.primary ? "white" : "#2574FC"};
     cursor: pointer;

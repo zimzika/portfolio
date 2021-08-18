@@ -24,9 +24,9 @@ const Sidebar = ({toggleSidebar}) => {
                     <SidebarItems>
                         <Item onClick={toggleSidebar} smooth={50} to="home" containerId="homeContainer" offset={-500}>Home</Item>
                         {/* <Item onClick={toggleSidebar} to="about">About</Item> */}
-                        <Item onClick={toggleSidebar} smooth={50} to="skills" containerId="homeContainer">Skills</Item>
-                        <Item onClick={toggleSidebar} smooth={50} to="projects" containerId="homeContainer">Projects</Item>
-                        <Item onClick={toggleSidebar} smooth={50} to="contact" containerId="homeContainer" primary>Contact</Item>
+                        <Item onClick={toggleSidebar} smooth={50} to="skills" offset={58} containerId="homeContainer">Skills</Item>
+                        {/* <Item onClick={toggleSidebar} smooth={50} to="projects" containerId="homeContainer">Projects</Item> */}
+                        <Item onClick={toggleSidebar} smooth={50} to="contact" offset={58} containerId="homeContainer" primary>Contact</Item>
                     </SidebarItems>
                 </SidebarWrapper>
             </Navbar>

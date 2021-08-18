@@ -11,6 +11,7 @@ import Sidebar from '../Sidebar/index';
 
 import HeroSection from '../HeroSection/index';
 import SkillSection from '../SkillsSection/index';
+import ContactSection from '../Contact/index';
 
 const Home = () => {
     const [openedSidebar, setOpenedSidebar] = useState(false);
@@ -31,6 +32,7 @@ const Home = () => {
                     }
                     <HeroSection />
                     <SkillSection />
+                    <ContactSection />
                 </Content>
             </Container>
         </>
