@@ -68,7 +68,7 @@ const Contact = () => {
                                 {
                                     !isLoading ? (
                                         <>
-                                            <div className="g-recaptcha" data-sitekey="6Lcl8AwcAAAAAEtibM6Up2TJ2XRbw6P3rmz02sF4" />
+                                            <div className="g-recaptcha" data-sitekey="6Le3rQ0cAAAAANF2raJz0atVwX6wMaFEo3v3NF2d" />
                                             <SendButton type="submit" value="Send" />
                                         </>
                                     ) : <CircularProgress />
