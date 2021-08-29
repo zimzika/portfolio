@@ -17,5 +17,5 @@ jobs:
           config_timezone: America/Sao_Paulo
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_url: https://zimzika.github.io/portfolio
+          plugin_pagespeed_url: https://zimzika.github.io/portfolio/
           plugin_pagespeed_screenshot: yes
